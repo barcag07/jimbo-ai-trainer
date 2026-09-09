@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
      <head>
-          <meta harset="UTF-8">
+          <meta charset="UTF-8">
+          <!-- Add this so that the page doesn't shrink on mobile -->
+           <meta name="viewport" content="width=device-width, initial-scale=1.0">
           <link rel="stylesheet" href="./css/styles.css">
           <title>Jimbo: The AI GymBro</title>
      </head>
@@ -9,43 +11,46 @@
      <body>
           <nav>
                <img class="logo" src="#" alt="NO IMAGE YET">
-               <h1 class="app-name"></h1>
+               <h1 class="app-name">Jimbo: The AI GymBro</h1>
                <div class="signup-login">
-                    <button class="signup"></button>
-                    <button class="login"></button>
+                    <button class="signup">Sign Up</button>
+                    <button class="login">Login</button>
                </div>
           </nav>
 
+          <!-- Think of the section tag like a chapter of a book -->
           <section class="meet-jimbo">
+               <h2 class="meet-jimbo-header">Meet Jimbo</h2>
                <p class="meet-jimbo-text">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id magni debitis nemo vitae omnis praesentium esse voluptatibus deleniti, expedita deserunt a, architecto optio, alias dolores? Quas error assumenda minima quidem!
                </p>
                <img class="meet-jimbo-image" src="#" alt="NO IMAGE YET">
           </section>
 
-          <button class="become-beta-tester"></button>
+          <button class="become-beta-tester">Become A Beta Tester</button>
 
           <section class="problem-solution">
-               <h2 class="problem-solution-header"></h2>
+               <h2 class="problem-solution-header">What's Wrong With Other Apps?</h2>
                <p class="problem-solution-text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, architecto. Nisi sequi sed soluta commodi error? Ullam aliquid, ea temporibus sunt velit animi libero cum atque modi voluptatem voluptates necessitatibus!
                </p>
           </section>
 
           <section class="features">
-               <h2 class="features-header"></h2>
+               <h2 class="features-header">Jimbo's Features</h2>
                <div class="features-grid">
+                    <!-- Think of the article element like a pokemon card. It's features together can create something that can stand alone. Pokemon name, image, moves -->
                     <article class="features-card">
-                         <h3 class="features-card-header"></h3>
+                         <h3 class="features-card-header">Feature 1</h3>
                          <p class="features-text">
-
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, ducimus quam dolor, inventore nulla tempora deleniti minus iusto rem omnis, tempore provident assumenda impedit cum dignissimos! Quo autem temporibus aliquam.
                          </p>
                     </article>
 
                     <article class="features-card">
-                         <h3 class="features-card-header"></h3>
+                         <h3 class="features-card-header">Feature 2</h3>
                          <p class="features-text">
-
+                              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus voluptas molestias sit vero! Veniam minus dolorum voluptatibus alias. Error aliquid quos ipsum hic est laboriosam eius ab libero architecto suscipit.
                          </p>
                     </article>
                </div>
@@ -55,7 +60,50 @@
                <span class="pricing">
 
                </span>
-               <button class="join-beta"></button>
+               <button class="join-beta">Join Beta</button>
           </div>
+
+          <section class="review">
+               <h2 class="review-header">Reviews</h2>
+               <ul class="review-list">
+                    <li class="review-item">
+                         <article class="review-card">
+                              <h3 class="user-name">Reviewer 1</h3>
+                              <span class="rating"></span>
+                              <p class="user-review-text">
+                                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti praesentium consequatur illum fugit maxime rerum aut incidunt natus dolorum sapiente tempora necessitatibus, commodi ex architecto quis eius dolorem amet voluptatibus!
+                              </p>
+                         </article>
+                    </li>
+
+                    <li class="review-item">
+                         <article class="review-card">
+                              <h3 class="user-name">Reviewer 2</h3>
+                              <span class="rating"></span>
+                              <p class="user-review-text">
+                                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti praesentium consequatur illum fugit maxime rerum aut incidunt natus dolorum sapiente tempora necessitatibus, commodi ex architecto quis eius dolorem amet voluptatibus!
+                              </p>
+                         </article>
+                    </li>
+               </ul>
+          </section>
+
+          <section class="faq">
+               <h2 class="faq-header"></h2>
+               <!-- details and summary elements can be used for drop down. details element is the container and summary would be the title of whatever is going to be dropped down. -->
+               <details class="faq-container">
+                    <summary class="faq-question">FAQ 1</summary>
+                    <p class="faq-answer">
+                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quisquam nisi voluptates facilis blanditiis ducimus consequatur, nulla repellat, nobis voluptatum dolores iste eveniet tenetur perspiciatis omnis quasi, molestias quis et?
+                    </p>
+               </details>
+
+               <details class="faq-container">
+                    <summary class="faq-question">FAQ 2</summary>
+                    <p class="faq-answer">
+                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quisquam nisi voluptates facilis blanditiis ducimus consequatur, nulla repellat, nobis voluptatum dolores iste eveniet tenetur perspiciatis omnis quasi, molestias quis et?
+                    </p>
+               </details>
+          </section>
      </body>
 </html>
