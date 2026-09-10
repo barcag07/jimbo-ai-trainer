@@ -52,5 +52,4 @@ Say you train legs the previous day and are starting to feel some pain in your k
 
 ## Security & Privacy Considerations
 * [WILL FILL OUT LATER ONCE MORE KNOWLEDGE IS LEARNED]
-
 <!-- Isaiah 55:8-9 -->
