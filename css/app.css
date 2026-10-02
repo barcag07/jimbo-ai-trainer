@@ -52,3 +52,77 @@
 .js-day {
      /* border: 3px solid green; */
 }
+
+.exercise-container {
+     /* border: 3px solid black; */
+     display: flex;
+}
+
+.exercise-phase {
+     /* border: 3px solid red; */
+     width: 100%;
+}
+
+.js-phase {
+     /* border: 3px solid blue; */
+}
+
+.exercise-top {
+     /* border: 3px solid green; */
+     display: flex;
+     justify-content: space-between;
+}
+
+.js-exercise-title {
+}
+
+.js-exercise-sets-reps {
+
+}
+
+.exercise-middle {
+     /* border: 3px solid hotpink; */
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+
+.middle-left {
+     /* border: 3px solid rgb(0, 89, 124); */
+}
+
+.exercise-bottom {
+     /* border: 3px solid yellow; */
+}
+
+.instructions-container {
+     /* border: 3px solid red; */
+}
+
+.instructions {
+     /* border: 3px solid rgb(26, 39, 6); */
+}
+
+.instructions-list {
+     /* border: 3px solid darkcyan; */
+}
+
+.tips-container {
+     /* border: 3px solid blue; */
+}
+
+.tips {
+     /* border: 3px solid darkgoldenrod; */
+}
+
+.tips-list {
+     /* border: 3px solid lightgreen; */
+}
+
+.log-workout-container {
+     display: flex;
+     justify-content: center;
+}
+
+.log-workout-button {
+}
