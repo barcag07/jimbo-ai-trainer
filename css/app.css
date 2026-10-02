@@ -31,3 +31,24 @@
 .check-status {
 
 }
+
+.session-title {
+     /* border: 3px solid black; */
+     display: flex;
+     justify-content: center;
+}
+
+.session-text {
+     /* border: 3px solid red; */
+     display: flex;
+     align-items: center;
+     gap: 1rem;
+}
+
+.today-text {
+     /* border: 3px solid blue; */
+}
+
+.js-day {
+     /* border: 3px solid green; */
+}
