@@ -1,0 +1,147 @@
+{
+  "session_id": "mock-session-001",
+  "session_name": "Chest & Upper Body",
+  "estimated_duration_min": 45,
+  "phases": [
+    {
+      "phase_name": "Warm Up",
+      "phase_slug": "warm-up",
+      "exercises": [
+        {
+          "id": "cat-cow",
+          "name": "Cat-Cow",
+          "target": "2 x 60 seconds",
+          "is_timed": true,
+          "duration_seconds": 60,
+          "instructions": [
+            "Start on all fours with the hands under the shoulders and the knees under the hips.",
+            "Exhale and round the spine towards the ceiling, tucking the tailbone and letting the head drop.",
+            "Inhale and reverse it: let the belly sink, lift the chest and tailbone, and look slightly forward.",
+            "Move between the two shapes slowly, one breath per position.",
+            "Finish in a neutral spine and sit back onto the heels."
+          ],
+          "tips": [
+            "Let the breath set the tempo rather than rushing between the two positions.",
+            "Keep the hands pressing evenly so the shoulders do not collapse towards the floor.",
+            "Move the whole spine, including the neck, instead of hinging only at the lower back."
+          ],
+          "safety_tags": {
+            "solo_safe": true,
+            "joint_friendly": true,
+            "knee_safe": true,
+            "lower_back_safe": true,
+            "shoulder_safe": true,
+            "no_axial_load": false
+          }
+        },
+        {
+          "id": "band-pull-apart",
+          "name": "Band Pull Apart",
+          "target": "2 x 15 reps",
+          "is_timed": false,
+          "instructions": [
+            "Stand holding a light resistance band with both hands, arms extended straight in front at shoulder height.",
+            "Hands start shoulder-width apart, palms facing down.",
+            "Keeping arms straight, pull the band apart by driving the hands out to the sides.",
+            "Finish with the band touching your chest and the shoulder blades squeezed together.",
+            "Return slowly to the starting position and repeat."
+          ],
+          "tips": [
+            "Lead the movement with the little fingers — this externally rotates the shoulders.",
+            "Use a band light enough to do 15–30 clean reps; this is a high-rep prehab exercise."
+          ],
+          "safety_tags": {
+            "solo_safe": true,
+            "joint_friendly": true,
+            "knee_safe": true,
+            "lower_back_safe": true,
+            "shoulder_safe": true,
+            "no_axial_load": true
+          }
+        }
+      ]
+    },
+    {
+      "phase_name": "Main Lifts",
+      "phase_slug": "main-lifts",
+      "exercises": [
+        {
+          "id": "bench-press",
+          "name": "Barbell Bench Press",
+          "target": "3 sets x 8 reps",
+          "is_timed": false,
+          "instructions": [
+            "Lie flat on a bench with your eyes under the bar.",
+            "Grip the bar slightly wider than shoulder-width.",
+            "Unrack the bar and lower it to your mid-chest.",
+            "Press the bar back up to full arm extension.",
+            "Repeat for the desired number of reps."
+          ],
+          "tips": [
+            "Keep your feet flat on the floor.",
+            "Maintain a slight arch in your lower back.",
+            "Drive through your legs for stability."
+          ],
+          "safety_tags": {
+            "solo_safe": false,
+            "joint_friendly": false,
+            "knee_safe": true,
+            "lower_back_safe": true,
+            "shoulder_safe": true,
+            "no_axial_load": true
+          }
+        },
+        {
+          "id": "db-bench-press",
+          "name": "Dumbbell Bench Press",
+          "target": "3 sets x 10 reps",
+          "is_timed": false,
+          "instructions": [
+            "Lie on a flat bench holding a dumbbell in each hand at chest level.",
+            "Press the dumbbells up until your arms are fully extended.",
+            "Lower them slowly back to the start.",
+            "Repeat."
+          ],
+          "tips": [
+            "Keep wrists neutral throughout.",
+            "Squeeze your chest at the top of the movement."
+          ],
+          "safety_tags": {
+            "solo_safe": true,
+            "joint_friendly": false,
+            "knee_safe": true,
+            "lower_back_safe": true,
+            "shoulder_safe": true,
+            "no_axial_load": true
+          }
+        },
+        {
+          "id": "chest-press-machine",
+          "name": "Machine Chest Press",
+          "target": "3 sets x 12 reps",
+          "is_timed": false,
+          "instructions": [
+            "Sit in the machine with your back flat against the pad.",
+            "Grip the handles at chest level.",
+            "Push the handles forward until your arms are fully extended.",
+            "Slowly return to the starting position.",
+            "Repeat."
+          ],
+          "tips": [
+            "Adjust the seat so the handles line up with mid-chest.",
+            "Keep your shoulder blades pulled back against the pad as you press.",
+            "Press to full extension without forcefully locking your elbows."
+          ],
+          "safety_tags": {
+            "solo_safe": true,
+            "joint_friendly": false,
+            "knee_safe": true,
+            "lower_back_safe": true,
+            "shoulder_safe": true,
+            "no_axial_load": true
+          }
+        }
+      ]
+    }
+  ]
+}
