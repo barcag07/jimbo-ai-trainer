@@ -11,6 +11,20 @@ section {
      padding-inline: 1.25rem;
 }
 
+/* USED TO SIMULATE A PHONE SCREEN */
+.mobile {
+  width: 100%;
+  max-width: 430px; 
+  margin: 0 auto;
+  min-height: 100vh;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); 
+  background: white;
+  border: 3px solid red;
+  border-radius: 10px;
+  padding: 1rem;
+  overflow-x: hidden; /* Prevents child element from breaking the box*/
+}
+
 
 
 /* VARIABLES values you will use later (colors, font-sizes) */
@@ -201,8 +215,9 @@ p.problem-solution-text {
 .pricing-list {
      /* border: 3px solid orchid; */
      display: flex;
-     gap: 10rem;
+     gap: 1.5rem;
      justify-content: center;
+     flex-wrap: wrap;
 }
 
 .pricing-list li {
@@ -233,35 +248,4 @@ p.problem-solution-text {
 
 
 /* STYLING FOR BIGGER SCREENS */
-@media all and (min-width: 768px) {
-     * {
-          /* color: red; */
-          .meet-jimbo-image {
-               height: 50vh;
-               width: auto;
-               /* border: 3px solid red; */
-          }
-
-          .meet-jimbo-container {
-               display: flex;
-               /* border: 3px solid blue; */
-               flex-direction: row;
-               justify-content: center;
-          }
-
-          .meet-jimbo-beta-text-container {
-               display: flex;
-               flex-direction: column;
-               align-items: center;
-               gap: 2rem;
-               /* border: 3px solid green; */
-               font-size: 30px;
-               flex-wrap: wrap;
-               width: 50%;
-          }
-
-          .meet-jimbo-beta-text-container button {
-               width: fit-content;
-          }
-     }
-}
+/*  */
