@@ -20,7 +20,7 @@ Say you train legs the previous day and are starting to feel some pain in your k
 * **Daily Check-In & Skip Check:** A daily check-in before each session to log soreness or missed workouts. If the user skipped previous workouts throughout the week, Jimbo will automatically update the day's session to incorporate what they missed.
 * **Gym and Bodyweight Options:** Generates exercises for gym-equipment and equipment-free routines for each scheduled session.
 * **Guided Workout Sessions:** Every session includes a warmup, estimated completion time, set/rep targets, and checkboxes to mark exercises as complete. The user will also be able to input any exercises they did that were not listed along with if they skipped an exercise, why, and how they felt after the session.
-* **Exercise Demo Pairing:** Pairs curated tutorial videos for every exercise. If the user doesn't like a video, they can thumbs down or refresh to find a better one. Thumbed up videos will be recorded for future recommendation for the user and others targeting that specific muscle.
+* **Exercise Demo Pairing:** Pairs clear visual demonstration images with each exercise making it easy for the user to follow along and keep good form.
 * **Visual Workout Calendar:** A weekly and monthly calendar to track completed sessions, review past logs, and track goals.
 
 ---
