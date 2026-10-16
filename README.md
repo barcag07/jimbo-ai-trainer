@@ -2,6 +2,9 @@
 
 > Jimbo is an AI personal trainer that will give you detailed, flexible workouts and exercises based on your needs and goals.
 
+
+* [App Live Preview](https://barcag07.github.io/jimbo-ai-trainer/app.html)
+* [Landing Page Live Preview](https://barcag07.github.io/jimbo-ai-trainer/)
 ---
 
 ## Problem and Solution
