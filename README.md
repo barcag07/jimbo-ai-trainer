@@ -20,7 +20,7 @@ Say you train legs the previous day and are starting to feel some pain in your k
 * **Daily Check-In & Skip Check:** A daily check-in before each session to log soreness or missed workouts. If the user skipped previous workouts throughout the week, Jimbo will automatically update the day's session to incorporate what they missed.
 * **Gym and Bodyweight Options:** Generates exercises for gym-equipment and equipment-free routines for each scheduled session.
 * **Guided Workout Sessions:** Every session includes a warmup, estimated completion time, set/rep targets, and checkboxes to mark exercises as complete. The user will also be able to input any exercises they did that were not listed along with if they skipped an exercise, why, and how they felt after the session.
-* **Exercise Video Pairing:** Pairs curated tutorial videos for every exercise. If the user doesn't like a video, they can thumbs down or refresh to find a better one. Thumbed up videos will be recorded for future recommendation for the user and others targeting that specific muscle.
+* **Exercise Demo Pairing:** Pairs curated tutorial videos for every exercise. If the user doesn't like a video, they can thumbs down or refresh to find a better one. Thumbed up videos will be recorded for future recommendation for the user and others targeting that specific muscle.
 * **Visual Workout Calendar:** A weekly and monthly calendar to track completed sessions, review past logs, and track goals.
 
 ---
@@ -34,22 +34,32 @@ Say you train legs the previous day and are starting to feel some pain in your k
 
 ---
 
-## Tech Stack & Architecture
+## Tech Stack
 
-* **Markup:** HTML5
-* **Styling:** CSS
-* **Logic & Engine:** Javascript
-* **Storage:** [WILL FILL OUT LATER ONCE MORE KNOWLEDGE IS LEARNED]
-* **External Integration:** [WILL FILL OUT LATER ONCE MORE KNOWLEDGE IS LEARNED]
-* **Architecture:** [WILL FILL OUT LATER ONCE MORE KNOWLEDGE IS LEARNED]
+* **Markup:** HTML5 (`<details>`, `<summary>`, `<article>`)
+* **Styling:** CSS (Mobile-First Simulation, FlexBox)
+* **Program Logic:** JavaScript, Fetch API, DOM Manipulation
+* **Data Layer:** Mock JSON file simulating an AI generated workout session
 
 ---
 
-## How the Adaptive Engine Handles the State
-* [WILL FILL OUT LATER ONCE MORE KNOWLEDGE IS LEARNED]
+## How the Engine Handles Session Rendering
+### Current
+**Workout Data:** Fetch local workout details from mock JSON file using Fetch API.
+**Render HTML:** Functions loop through the workout data and create cards for each phase and exercise.
+**Error Checks:** Checks if instructions or tips are present before displaying them, preventing a crash.
+
+
+### Planned AI Features
+**Daily Check-In:** AI collects your soreness level, energy level, injuries, and current equipment to offer custom daily session adjustments.
+**AI Workout Outputs:** AI will look at your equipment, goals, and accommodations to generate a 4 week training block.
+**AI Conversing:** Lets users chat directly with the AI about feedback, preferences, or real time routine tweaks to keep sessions flexible.
 
 ---
 
 ## Security & Privacy Considerations
-* [WILL FILL OUT LATER ONCE MORE KNOWLEDGE IS LEARNED]
+**Current Prototype:** Runs locally in the browser with no user tracking or external database connections
+
+**Future Storage:** User profile details, health notes, and injuries will require secure backend storage and encrypted user authentication.
+
 <!-- Isaiah 55:8-9 -->
