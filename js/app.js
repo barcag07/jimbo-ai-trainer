@@ -1,4 +1,4 @@
-fetch("../data/mock-exercise-session.json")
+fetch("./data/mock-exercise-session.json")
 
 .then(response => {
      return response.json();
