@@ -65,4 +65,10 @@ Say you train legs the previous day and are starting to feel some pain in your k
 
 **Future Storage:** User profile details, health notes, and injuries will require secure backend storage and encrypted user authentication.
 
+---
+
+## Credits
+> Exercise data by [RepDB](https://repdb.co)
+
+
 <!-- Isaiah 55:8-9 -->
