@@ -53,6 +53,7 @@
      /* border: 3px solid black; */
      display: flex;
      justify-content: center;
+     margin: 1rem;
 }
 
 .session-text {
@@ -98,8 +99,9 @@
 
 .js-phase {
      /* border: 3px solid blue; */
-     font-size: 36px;
+     font-size: 30px;
      font-weight: bold;
+     margin-bottom: 1rem;
 }
 
 .exercise-top {
