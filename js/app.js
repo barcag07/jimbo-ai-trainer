@@ -29,7 +29,7 @@ function renderPhaseCard(phase) {
      
      // NOTE: Keeping an open attribute in details allows the dropdown to stay down until it is pressed
      return `  <details class="exercise-phase" open>
-                    <summary class="warm-up js-phase">
+                    <summary class="phase-header js-phase">
                          ${phase.phase_name}
                     </summary>
 
