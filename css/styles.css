@@ -22,7 +22,7 @@ section {
   border: 3px solid red;
   border-radius: 10px;
   padding: 1rem;
-  overflow-x: hidden; /* Prevents child element from breaking the box*/
+  overflow-x: hidden; /* Prevents child element from breaking the box */
 }
 
 
@@ -83,10 +83,22 @@ nav {
      /* border: 3px solid red; */
      display: flex;
      flex-direction: row;
-     justify-content: space-between;
+     justify-content: center;
      width: 100%;
      align-items: center;
      padding-inline: 1.25rem;
+     flex-wrap: wrap;
+     
+}
+
+header {
+     /* border: 3px solid black; */
+     display: flex;
+     justify-content: center;
+}
+
+header img {
+     align-self: center;
 }
 
 .logo {
@@ -95,8 +107,11 @@ nav {
 }
 
 .signup-login {
+     /* border: 3px solid blue; */
      display: flex;
      gap: 1.25rem;
+     flex-wrap: wrap;
+     justify-content: center;
 }
 
 .signup-login button {
