@@ -245,8 +245,14 @@ p.problem-solution-text {
      margin-top: 1rem;
 }
 
+footer {
+     border-top: 3px solid blue;
+     margin-left: -20px;
+     margin-right: -20px;
+}
+
 .footer {
-     border: 3px solid blue;
+     /* border: 3px solid blue; */
      display: flex;
      justify-content: center;
      padding: 2rem 0;
